@@ -1,0 +1,167 @@
+.toppic{
+    width: 100%;
+    filter: blur(3px);
+}
+.top{
+    position: relative;
+    text-align: center;
+}
+.top p{
+    color: #eef2f8;
+    font-size: 5vw;
+}
+.nbr {
+    background-color: #e6dfdf;
+ /* margin-bottom: 90px;    */
+border: 2px solid #000000;
+display: flex;
+font-size: 20px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.lnk:hover{
+border-bottom: 2px solid #04066b;
+}
+
+
+
+.name {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 70px;
+  }
+  
+
+  /* ---------------------------er-------------- */
+  .card-custom {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+.card-custom:hover {
+    /* transform: translateY(-10px); */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+.card-custom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+.card-custom:hover img {
+    transform: scale(1.05);
+}
+.card-body-custom {
+    padding: 15px;
+    background-color: #fff;
+}
+.card-title-custom {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-text-custom {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* -----------resume--------------- */
+
+.resume{
+    margin-top: 40px;
+    padding: 2rem 1rem;
+}
+
+/* -----------skills---------------- */
+.skills {
+    background-color: #f7f7f7;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.skills p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.skill {
+    background-color: #0000007c;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 220px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 0.5rem;
+}
+
+.skill h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+/* ----------contact-----------------  */
+.contact {
+    background-color: #f7f7f7;
+    padding: 2rem 1rem;
+    text-align: center;
+margin-top: 40px;
+margin-bottom: 150px;}
+  
+.frm_btn{
+    background-color: #000000;
+    color: #f7f7f7;
+    width: 200px;
+}
+.frm_btn:hover{
+    background-color: #0808089f;
+    color: #e6dfdf;
+}
+
+/* -----------------footer-----------------  */
+.footer {
+    background-color: rgb(194, 194, 20);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0
+  }
+  .ftr_ctd {
+    margin-bottom: var(--mb-4);
+  }
+  .footer__icon {
+    font-size: 100px;
+    color: #080808;
+    /* margin: 0 var(--mb-2); */
+  }
+  .footer__copy {
+    font-size: var(--smaller-font-size);
+  }
+
+
+  
