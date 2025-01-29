@@ -1,3 +1,8 @@
+
+body{
+    background-color: #01036367;
+}
+
 .toppic{
     width: 100%;
     filter: blur(3px);
@@ -8,12 +13,12 @@
 }
 .top p{
     color: #eef2f8;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 .nbr {
     background-color: #e6dfdf;
  /* margin-bottom: 90px;    */
-border: 2px solid #000000;
+border-bottom: 2px solid #04066c;
 display: flex;
 font-size: 20px;
 justify-content: space-between;
@@ -22,7 +27,7 @@ align-items: center;
 }
 
 .lnk:hover{
-border-bottom: 2px solid #04066b;
+border-bottom: 2px solid #04066c;
 }
 
 
@@ -32,9 +37,14 @@ border-bottom: 2px solid #04066b;
     bottom: 8px;
     left: 16px;
     color: white;
-    font-size: 70px;
+    font-size: 40px;
   }
   
+  .abt-me{
+    height:400px;
+    width: 300px;
+    box-shadow: 0 7px 11px 0 rgba(0, 0, 0, 0.575), 0 9px 24px 0 rgba(0, 0, 0, 0.19);
+  }
 
   /* ---------------------------er-------------- */
   .card-custom {
