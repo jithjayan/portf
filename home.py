@@ -22,7 +22,6 @@ def submit_contact():
         con=sqlite3.connect('data.db')
         con.execute("insert into msg(name,email,msg)values(?,?,?)",(name,email,msg))
         con.commit()
-        message="Your message has been submitted"
     return render_template('index.html')
 
 if __name__ == '__main__':

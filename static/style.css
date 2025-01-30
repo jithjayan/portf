@@ -143,7 +143,7 @@ border-bottom: 2px solid #04066c;
     padding: 2rem 1rem;
     text-align: center;
 margin-top: 40px;
-margin-bottom: 150px;}
+margin-bottom: 40px;}
   
 .frm_btn{
     background-color: #000000;
@@ -156,23 +156,19 @@ margin-bottom: 150px;}
 }
 
 /* -----------------footer-----------------  */
-.footer {
-    background-color: rgb(194, 194, 20);
-    color: #ffffff;
+.ftr {
+    height: 100px;
+    background-color: #000000;
     text-align: center;
-    padding: 2rem 0
-  }
-  .ftr_ctd {
-    margin-bottom: var(--mb-4);
-  }
-  .footer__icon {
-    font-size: 100px;
-    color: #080808;
-    /* margin: 0 var(--mb-2); */
-  }
-  .footer__copy {
-    font-size: var(--smaller-font-size);
-  }
+    color: white;
+    font-size: x-large;
+}
+.tx{
+    border-bottom:2px solid #eef2f8;
+}
+.ftr a{
+    padding-left: 20px;
 
+}
 
   
